@@ -1,0 +1,25 @@
+/* Base styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  position: relative;
+}
+
+#rectangle {
+  width: 100px;
+  height: 80px;
+  background-color: red;
+  position: absolute;
+}
+
+#moveRectangle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+   
